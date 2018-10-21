@@ -1,4 +1,4 @@
-# SpotNet &mdash; Learned iterations for cell detection in image-based immunoassays
+# SpotNet &mdash; Learned Iterations for Cell Detection in Image-based Immunoassays
 ### Pol del Aguila Pla [\[1\]][1], Vidit Saxena [\[2\]][2], and Joakim Jaldén [\[3\]][3]
 
 This GitHub repository contains the code and explanations that complement the paper of the same name, submitted to the 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) [\[4\]][4].
