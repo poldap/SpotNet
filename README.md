@@ -1,17 +1,20 @@
 # SpotNet &mdash; Learned Iterations for Cell Detection in Image-based Immunoassays
-### Pol del Aguila Pla [\[1\]][1], Vidit Saxena [\[2\]][2], and Joakim Jaldén [\[3\]][3]
+### Pol del Aguila Pla [\[2\]][2], Vidit Saxena [\[3\]][3], and Joakim Jaldén [\[4\]][4]
+#### This article is available for download at [\[1\]][1]
 
-This GitHub repository contains the code and explanations that complement the paper of the same name, submitted to the 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) [\[4\]][4]. The code provided here is **still not ready** for functioning when being run directly, and it will be improved during the coming weeks.
+This GitHub repository contains the code and explanations that complement the paper of the same name, submitted to the 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) [\[5\]][5]. The code provided here is **still not ready** for functioning when being run directly, and it will be improved during the coming weeks.
 
-[\[1\]][1]: Pol del Aguila Pla's research website  
-[\[2\]][2]: Vidit Saxena's research profile at KTH  
-[\[3\]][3]: Joakim Jaldén's research profile at KTH  
-[\[4\]][4]: ISBI 2019 website
+[\[1\]][1]: Pre-print of the article in arXiv.org, arXiv:1810.06132 \[eess.IV\]  
+[\[2\]][2]: Pol del Aguila Pla's research website  
+[\[3\]][3]: Vidit Saxena's research profile at KTH  
+[\[4\]][4]: Joakim Jaldén's research profile at KTH  
+[\[5\]][5]: ISBI 2019 website
 
-[1]: https://poldap.github.io  
-[2]: https://kth.se/profile/vidits   
-[3]: https://kth.se/profile/jalden 
-[4]: https://biomedicalimaging.org/2019/
+[1]: https://arxiv.org/abs/1810.06132
+[2]: https://poldap.github.io  
+[3]: https://kth.se/profile/vidits   
+[4]: https://kth.se/profile/jalden 
+[5]: https://biomedicalimaging.org/2019/
 
 ## Prerequisites
 1. Python 3  
