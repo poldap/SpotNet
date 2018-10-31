@@ -9,13 +9,15 @@ This GitHub repository contains the code and explanations that complement the pa
 [\[2\]][2]: Pol del Aguila Pla's research website  
 [\[3\]][3]: Vidit Saxena's research profile at KTH  
 [\[4\]][4]: Joakim Jaldén's research profile at KTH  
-[\[5\]][5]: ISBI 2019 website
+[\[5\]][5]: ISBI 2019 website    
+[\[6\]][6]: Sebastian Eschweiler, "Getting started with Jupyter notebook for Python", [_CodingTheSmartWay.com_](https://codingthesmartway.com), Dec. 2017
 
 [1]: https://arxiv.org/abs/1810.06132
 [2]: https://poldap.github.io  
 [3]: https://kth.se/profile/vidits   
 [4]: https://kth.se/profile/jalden 
 [5]: https://biomedicalimaging.org/2019/
+[6]: https://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/
 
 ## Prerequisites
 
@@ -32,23 +34,19 @@ To be able to run our code in your own computer or computational server, you wil
 
 ## Executing the code
 
-Most of our code is organized as Jupyter notebooks containing Python code. If you are unfamiliar with Jupyter notebooks, you can refer to any of the many existing tutorials, e.g.: [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46).
+Most of our code is organized as Jupyter notebooks containing Python code. If you are unfamiliar with Jupyter notebooks, you can refer to any of the many existing tutorials, e.g., [\[6\]][6]. After installation of the required packages, navigating to the folder where this repository has been cloned and executing `jupyter notebook` launches the Jupyter notebook server in that folder. Then, a simple click to any of the `*.ipynb` files listed there loads it on a new tab, where controls for running our code are available. 
 
 ### Data generation
 
-The generation of synthetic Fluorospot images is provided by [`data_simulation.ipynb`](https://nbviewer.jupyter.org/github/poldap/SpotNet/blob/master/data_simulation.ipynb). After you have started the Jupyter notebook server from your cloned SpotNet directory, you should be able to open and run `data_simulation.ipynb` in your browser.  
-  
-To understand the theory behind image generation, follow the explanations for each cell and run them sequentially. When all the cells have been run, the images will be generated and stored in the `sim_data` directory. Alternatively, you can generate the images directly with the default parameters by using the menu and selecting `Kernel -> Restart and Run All`.
-
-**Note**: The generation of images with default parameters is expected to take several minutes, and may even take up to a few hours in non-GPU systems.
+The generation of synthetic FluoroSpot images is provided by [`data_simulation.ipynb`](https://nbviewer.jupyter.org/github/poldap/SpotNet/blob/master/data_simulation.ipynb). To understand the theory and the implementation behind the generation of synthetic FluoroSpot images, follow the explanations for each cell and run them sequentially. Alternatively, to simply generate the images with the default parameters, one can use the menu and select `Kernel -> Restart and Run All`. In either case, the synthetic FluoroSpot images that form our training and test databases will be stored in the `sim_data` directory when all cells have finished running. In particular, [`data_simulation.ipynb`](https://nbviewer.jupyter.org/github/poldap/SpotNet/blob/master/data_simulation.ipynb) will create 4 `*.npy` files in the `sim_data` directory, of which one (`result_1250_cells_10_images.npy`) will contain our training database, while the remaining three contain our test database. The accumulated size of these four files is expected to be around 10 GB.
 
 ### SpotNet training (optional)
 
-Once the data has been generated, it will be stored in the `sim_data` directory. Run the `spot_net.ipynb` notebook by running `Kernel -> Restart and Run All`.  
+Once the data has been generated, it will be stored in the `sim_data` directory. Run the [`spot_net.ipynb`](https://nbviewer.jupyter.org/github/poldap/SpotNet/blob/master/spot_net.ipynb) notebook by running `Kernel -> Restart and Run All`.  
 
 ### ConvNet training (optional)
   
-Once the data has been generated, it will be stored in the `sim_data` directory. Run the `conv_net.ipynb` notebook by running `Kernel -> Restart and Run All`.
+Once the data has been generated, it will be stored in the `sim_data` directory. Run the [`conv_net.ipynb`](https://nbviewer.jupyter.org/github/poldap/SpotNet/blob/master/conv_net.ipynb) notebook by running `Kernel -> Restart and Run All`.
 
 ### Evaluation of the trained models
 
