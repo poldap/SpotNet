@@ -23,7 +23,7 @@ In order to run our code successfully and in a moderate time, you will need acce
 
 ## Reading through the code and explanations
 
-If you want to explore the code and related explanations without running them, you can visualize them through [`nbviewer.jupyter.org`](https://nbviewer.jupyter.org/github/poldap/SpotNet/tree/master/). This option entails few software requirements. You can use [`nbviewer.jupyter.org`](https://nbviewer.jupyter.org/github/poldap/SpotNet/tree/master/) from any modern browser, without any further installation requirements. Nonetheless, this will only allow you to visualize the notebooks, and reproducing the results will not be possible.  
+The simplest way to read through the annotated code is to open the relevant `*.ipynb` 'notebook' files (also linked in the previous section) in your browser. If your browser does not display these files nicely or for any other reason, you can visualize them through [`nbviewer.jupyter.org`](https://nbviewer.jupyter.org/github/poldap/SpotNet/tree/master/). This option entails few software requirements. You can use [`nbviewer.jupyter.org`](https://nbviewer.jupyter.org/github/poldap/SpotNet/tree/master/) from any modern browser, without any further installation requirements. Nonetheless, this will only allow you to visualize the notebooks, and reproducing the results will not be possible.  
 
 ## Executing the code  
 
