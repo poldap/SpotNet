@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/poldap/SpotNet/master)
+
 # SpotNet &mdash; Learned Iterations for Cell Detection in Image-based Immunoassays
 ### Pol del Aguila Pla [\[2\]][2], Vidit Saxena [\[3\]][3], and Joakim Jaldén [\[4\]][4]
 
